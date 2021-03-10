@@ -18,7 +18,7 @@ namespace SalaryCalculatorTestProject
         public void AnnualSalaryTest()
         {
             // Arrange 
-            SalaryCalculatorTestProject sc = new SalaryCalculator();
+            SalaryCalculator sc = new SalaryCalculator();
 
             // Act
             decimal annualSalary = sc.GetAnnualSalary(50);
