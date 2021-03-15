@@ -2,7 +2,7 @@
 
 namespace All_My_Classes
 {
-    public class BasicCoffeeMaker : CoffeeMaker
+    public class BasicCoffeeMaker : ICoffeeMaker
     {
         private string name;
         private int size;
@@ -28,7 +28,7 @@ namespace All_My_Classes
 
 
 
-    public class AdvancedCoffeeMaker: CoffeeMaker 
+    public class AdvancedCoffeeMaker: ICoffeeMaker 
     {
         private string name; 
         private int size;

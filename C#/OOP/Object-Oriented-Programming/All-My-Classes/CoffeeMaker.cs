@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace All_My_Classes
 {
-    interface CoffeeMaker
+    interface ICoffeeMaker
     {
         public string Brew();
         public string PourDrink();
