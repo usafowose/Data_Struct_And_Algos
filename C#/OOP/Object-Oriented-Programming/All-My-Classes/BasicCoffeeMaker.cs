@@ -61,8 +61,6 @@ namespace All_My_Classes
             return $"{brewSpeed}ly brewing your {size}oz. cup of carefully crafted coffee"; 
         }
 
-
-
         public string PourDrink() 
         {
             return "Pouring Your Daringly Designed Cup!";
